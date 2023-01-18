@@ -1,0 +1,13 @@
+for i in range(1, 101):
+
+    divisibleByThree = i % 3 == 0
+    divisibleByFive = i % 5 == 0
+
+    if divisibleByThree and divisibleByFive:
+        print("FizzBuzz")
+    elif divisibleByThree:
+        print("Fizz")
+    elif divisibleByFive:
+        print("Buzz")
+    else:
+        print(i)
